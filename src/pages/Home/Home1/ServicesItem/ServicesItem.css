@@ -1,0 +1,41 @@
+.card {
+  overflow: hidden;
+}
+
+/* .card:hover {
+  transform: scale(1.05);
+} */
+
+
+@media (hover: hover), (prefers-reduced-motion: no-preference) {
+  .card-body {
+    transform: translateX(-50%);
+    transition: transform 300ms ease;
+  }
+
+  .card:hover .card-body {
+    transform: translateY(0);
+    transition-delay: 200ms;
+  }
+
+}
+
+/* hover animation on image */
+
+.card img {
+transition: transform 1s ease-out;
+}
+
+.card:hover img {
+transform: translateX(120px);
+}
+
+@media only screen and (max-width: 640px) {
+/* .card:hover img {
+  transform: translateX(170px);
+} */
+
+.carditem-icon-margin{
+  margin-left: 30px;
+}
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 640px) {
+  .font-sizee {
+    font-size: 25px;
+  }
+}
+
+.BrainhubCarousel__arrows {
+  background-color: #07ccec !important;
+}

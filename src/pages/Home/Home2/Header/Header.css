@@ -1,0 +1,32 @@
+@media only screen and (max-width: 640px) {
+    .responsive{
+        top: 20px;
+        left: 35px;
+        
+    }
+    .font-size{
+        font-size: 40px;
+    }
+
+    .text-hidden{
+        display: none;
+    }
+  .banner-height{
+    height: 500px;
+  }
+  .image-size{
+    width: 180px;
+  }
+  .header-appoint-btn{
+    padding:0 10px;
+  }
+
+  .header-seemore-btn{
+    padding: 0 16px;
+  }
+  .header-image-size{
+    width: 45%;
+    display: flex;
+    justify-items: center;
+  }
+}

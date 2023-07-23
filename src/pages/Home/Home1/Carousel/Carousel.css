@@ -1,0 +1,24 @@
+
+.swiper-button-next {
+  --swiper-navigation-color:white;
+
+}
+
+.swiper-button-prev {
+  --swiper-navigation-color:white;
+}
+
+@media only screen and (max-width: 640px) {
+  .carousel-appoint-btn{
+      padding:0 10px;
+  }
+  .carousel-seemore-btn{
+    padding: 0 16px;
+  }
+  .carousel-top-space{
+    top: 50%;
+  }
+  .carousel-h1-tag{
+    font-size: 20px;
+  }
+}
